@@ -1,20 +1,23 @@
 
-A fork of yorumi.nvim attempting to combine the theme with the "Sleepy Hollow" theme for the Ghostty terminal emulator. 
+A fork of yorumi.nvim attempting to combine the theme with the
+"Sleepy Hollow" theme for the Ghostty terminal emulator.
 
 
 ### Installation and Usage
 
-Download with your favorite package manager. Here's one for Packer:
+Download with your package manager of choice. For example with lazy:
 ```lua
-use "yorumicolors/yorumi.nvim"
+{
+    "sam-lz/yorumi-dusk.nvim"
+},
 ```
 
-Once you have the colorscheme, you can apply it by a simple
+Once you have the colorscheme, you can apply it with
 ```vimscript
-colorscheme yorumi
+colorscheme yorumi-dusk
 ```
 or
 ```lua
-vim.cmd("colorscheme yorumi")
+vim.cmd("colorscheme yorumi-dusk")
 ```
 

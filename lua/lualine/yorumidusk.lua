@@ -2,7 +2,7 @@
 
 local arrow_sl = require('arrow.statusline')
 local lualine = require('lualine')
-local palette = require("yorumi.colors")
+local palette = require("yorumidusk.colors")
 
 local checks = {
   empty_buffer = function()

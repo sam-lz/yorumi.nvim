@@ -1,8 +1,8 @@
 local M = {}
 
----@param config? YorumiConfig
+---@param config? YorumiDuskConfig
 function M.apply(config)
-  config = config or require("yorumi").config
+  config = config or require("yorumidusk").config
   local hl_files = {
     "editor", "lsp", "syntax",
     "plugins/nvim-tree", "plugins/nvim-tree",
@@ -11,7 +11,7 @@ function M.apply(config)
   }
 
   for _, highlight in ipairs(hl_files) do
-    local highlights = require("yorumi.highlights." .. highlight)
+    local highlights = require("yorumidusk.highlights." .. highlight)
     local table = highlights.setup(config)
     for hl, spec in pairs(table) do
       vim.api.nvim_set_hl(0, hl, spec)

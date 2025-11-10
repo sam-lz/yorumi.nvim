@@ -1,8 +1,8 @@
 local M = {}
 
----@param config YorumiConfig
+---@param config YorumiDuskConfig
 function M.setup(config)
-  local palette = require("yorumi.colors")
+  local palette = require("yorumidusk.colors")
 
   return {
     CmpDocumentation = { bg = palette.yoru0, fg = palette.tsuki2 },

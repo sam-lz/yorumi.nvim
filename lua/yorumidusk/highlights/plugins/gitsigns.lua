@@ -1,8 +1,8 @@
 local M = {}
 
----@param config YorumiConfig
+---@param config YorumiDuskConfig
 function M.setup(config)
-  local palette = require("yorumi.colors")
+  local palette = require("yorumidusk.colors")
   return {
     -- Used for the text of 'add' signs.
     GitSignsAdd = { fg = palette.umiGreen },

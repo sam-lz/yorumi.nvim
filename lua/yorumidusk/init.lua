@@ -1,6 +1,6 @@
 local M = {}
 
----@class YorumiConfig
+---@class YorumiDuskConfig
 M.config = {
   undercurl = true,
   commentStyle = { italic = false },
@@ -11,8 +11,8 @@ M.config = {
   dimInactive = false,
   terminalColors = false,
   ---@type { dark: string, light: string}
-  background = { dark = "abyss", light = "mist" },  --- light, mist theme coming soon
-  theme = "abyss",
+  -- background = { dark = "abyss", light = "mist" },  
+  theme = "dusk",
 }
 
 ---@param theme? string
@@ -25,10 +25,10 @@ function M.load(theme)
     vim.cmd("hi clear")
   end
 
-  vim.g.colors_name = "yorumi"
+  vim.g.colors_name = "yorumi-dusk"
   vim.o.termguicolors = true
 
-  require("yorumi.highlights").apply(config)
+  require("yorumidusk.highlights").apply(config)
 end
 
 return M
