@@ -4,7 +4,7 @@ local palette = {
   yoru0   = "#060914", -- bg
   yoru1   = "#0B0E18",
   -- yoru2   = "#0F1220", -- selection/float bg (cooler)
-  yoru2   = "#12162A",
+  yoru2   = "#151A2B",
   yoru3   = "#161A25",
 
   -- tsuki: lighter neutrals / tints (darker, cooler for reduced contrast)
