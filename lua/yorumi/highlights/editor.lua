@@ -19,7 +19,7 @@ function M.setup(config)
     DiffDelete    = { bg = palette.kuroiRed, fg = palette.kairoRed },
     DiffText      = { bg = palette.kairoYellow, fg = palette.yoru0 },
     -- EndOfBuffer   = { fg = palette.yoru2 },
-    EndOfBuffer   = { fg = palette.tsuki1 },
+    EndOfBuffer   = { fg = palette.yoru3 },
     ErrorMsg      = { fg = palette.kairoRed },
     WinSeparator  = { fg = palette.yoru3 },
     VertSplit     = { link = "WinSeparator" },
