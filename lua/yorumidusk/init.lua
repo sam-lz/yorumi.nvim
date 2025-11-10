@@ -18,7 +18,8 @@ M.config = {
 ---@param theme? string
 function M.load(theme)
   local config = M.config
-  theme = theme or M.config.background[vim.o.background] or M.config.theme
+  -- theme = theme or M.config.background[vim.o.background] or M.config.theme
+  theme = alias[theme] or theme or config.theme
   M._CURRENT_THEME = theme
 
   if vim.g.colors_name then
