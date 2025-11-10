@@ -5,11 +5,8 @@
 
 <img src="https://github.com/yorumicolors/.github/blob/main/res/apps/nvim/nvim-abyss.png?raw=true">
 
-Yorumi – a calming deep sea colorscheme for developers. 
-This color scheme is crafted to keep things mellow with low contrast vibes between components, 
-while your text stays razor-sharp and easy on the eyes (~8:1 contrast ratio). 
-Perfect for those late-night marathon coding sessions or when you just want to feel like you're in a cozy nook. 
-Less eye strain, more code magic. Dive into the soothing world of yorumi and keep your coding cool.
+A fork of yorumi.nvim attempting to combine the theme with the "Sleepy Hollow" theme for the Ghostty terminal emulator. 
+
 
 [Find Yorumi](https://github.com/yorumicolors/yorumi#applications) or [Request a port](https://github.com/yorumicolors/yorumi/issues/new?assignees=&labels=port&projects=&template=port-request.md&title=%5BPORT%5D+%3CAPP-NAME%3E) for your favorite application.
 
