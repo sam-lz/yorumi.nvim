@@ -36,14 +36,17 @@ local palette = {
   sangoOrange   = "#D29146",
   -- sangoOrange   = "#B55600",
   -- sangoGreen    = "#80AA6E",
-  sangoGreen    = "#8FAEA9",
+  -- sangoGreen    = "#5CCF5C",
+  sangoGreen    = "#64C354",
   -- sangoBlue     = "#597BC0",
-  sangoBlue     = "#2055CC",
+  sangoBlue     = "#336BE0",
   sangoYellow   = "#D6B04E", -- Sleepy Hollow
   sangoMagenta  = "#B4647F",
-  -- sangoViolet   = "#8086EF", -- Sleepy Hollow light violet (requested)
-  sangoViolet   = "#5F63B4", -- Sleepy Hollow light violet (requested)
-  sangoCyan     = "#A4DCE7", -- Sleepy Hollow (kept slightly bright for accents)
+  sangoViolet   = "#8086EF", -- Sleepy Hollow light violet (requested)
+  -- sangoViolet   = "#5F63B4", -- Sleepy Hollow light violet (requested)
+  -- sangoCyan     = "#A4DCE7", -- Sleepy Hollow (kept slightly bright for accents)
+  sangoCyan     = "#7FD7E8", -- Sleepy Hollow (kept slightly bright for accents)
+
 
   -- kairo: brighter accents (mostly cool; SH for red/orange/violet)
   kairoRed      = "#D9443F", -- Sleepy Hollow
