@@ -39,13 +39,13 @@ local palette = {
   sangoBlue     = "#7596EB",
   sangoYellow   = "#D6B04E", -- Sleepy Hollow
   sangoMagenta  = "#B4647F",
-  sangoViolet   = "#8086EF", -- Sleepy Hollow light violet (requested)
-  sangoCyan     = "#A4DCE7", -- Sleepy Hollow (kept slightly bright for accents)
+  -- sangoViolet   = "#8086EF", -- Sleepy Hollow light violet (requested)
+  sangoViolet   = "#5F63B4", -- Sleepy Hollow light violet (requested)
+  -- sangoCyan     = "#A4DCE7", -- Sleepy Hollow (kept slightly bright for accents)
+  sangoCyan     = "#78CFEF", -- Sleepy Hollow (kept slightly bright for accents)
 
 
   -- sangoCyan     = "#7FD7E8", -- Sleepy Hollow (kept slightly bright for accents)
-  -- sangoCyan     = "#78CFEF", -- Sleepy Hollow (kept slightly bright for accents)
-  -- sangoViolet   = "#5F63B4", -- Sleepy Hollow light violet (requested)
 --  kairoBlue     = "#788AD3", -- cooler than SH’s vivid blue
 --  kairoViolet   = "#8086EF", -- Sleepy Hollow light violet
 
