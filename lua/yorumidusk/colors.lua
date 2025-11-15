@@ -5,14 +5,14 @@ local palette = {
   yoru1   = "#0B0E18",
   yoru2   = "#111421", -- selection/float bg
   yoru3   = "#171A26",
-
   -- tsuki: lighter neutrals / tints (all ~8–12% darker to reduce contrast)
   tsuki0  = "#5A5C66",
   tsuki1  = "#7C7E8B",
-  tsuki2  = "#9A9CAD", -- default fg (darker than #A7A9B5)
+  -- tsuki2  = "#9A9CAD", -- default fg (darker than #A7A9B5)
+  tsuki2  = "#A7A9B5",
   tsuki3  = "#B3B5C2",
-  tsuki4  = "#96CFE0", -- dimmed Sleepy Hollow cool tint (from #A4DCE7)
-
+  -- tsuki4  = "#96CFE0", -- dimmed Sleepy Hollow cool tint (from #A4DCE7)
+  tsuki4  = "#A4DCE7",
   -- kuroi: very dark tinted hues / utility (Yorumi)
   kuroiRed      = "#4E0E0E",
   kuroiGreen    = "#1C4642",
@@ -21,7 +21,6 @@ local palette = {
   kuroiViolet   = "#0E0D17",
   kuroiBlack    = "#121210",
   kuroiGray     = "#343742",
-
   -- umi: muted mid accents (cool Yorumi, with SH teal/magenta)
   umiRed        = "#913B3B",
   umiOrange     = "#9C672B",
@@ -30,26 +29,22 @@ local palette = {
   umiYellow     = "#9D672F",
   umiMagenta    = "#A17C7B", -- Sleepy Hollow warm magenta
   umiCyan       = "#49837E",
-
   -- sango: standard mid accents (keep cool vibe, inject SH warmth)
   sangoRed      = "#BA3934", -- Sleepy Hollow
   sangoOrange   = "#D29146",
   sangoGreen    = "#80AA6E",
-  sangoBlue     = "#788AD3",
+  -- sangoBlue     = "#788AD3",
+  sangoBlue     = "#597BC0",
   sangoYellow   = "#D6B04E", -- Sleepy Hollow
   sangoMagenta  = "#B4647F",
-  sangoCyan     = "#78CFEF", -- Sleepy Hollow (kept slightly bright for accents)
+  -- sangoCyan     = "#78CFEF", -- Sleepy Hollow (kept slightly bright for accents)
+  --  kairoViolet   = "#8086EF", -- Sleepy Hollow light violet
   sangoViolet   = "#6D70C8", -- Sleepy Hollow light violet (requested)
-
-
-  -- sangoBlue     = "#597BC0",
   -- sangoBlue     = "#7596EB",
   -- sangoViolet   = "#5F63B4", -- Sleepy Hollow light violet (requested)
   -- sangoCyan     = "#A4DCE7", -- Sleepy Hollow (kept slightly bright for accents)
-  -- sangoCyan     = "#7FD7E8", -- Sleepy Hollow (kept slightly bright for accents)
+  sangoCyan     = "#7FD7E8", -- Sleepy Hollow (kept slightly bright for accents)
 --  kairoBlue     = "#788AD3", -- cooler than SH’s vivid blue
---  kairoViolet   = "#8086EF", -- Sleepy Hollow light violet
-
   -- kairo: brighter accents (mostly cool; SH for red/orange/violet)
   kairoRed      = "#D9443F", -- Sleepy Hollow
   kairoOrange   = "#F66813", -- Sleepy Hollow
