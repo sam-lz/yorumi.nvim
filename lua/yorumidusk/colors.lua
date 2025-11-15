@@ -9,7 +9,7 @@ local palette = {
 
   -- tsuki: lighter neutrals / tints (raised contrast a bit)
   tsuki0  = "#5A5C66",
-  tsuki1  = "#888C96",
+  tsuki1  = "#B5BAC4", --#888C96
   tsuki2  = "#BDC2CC", -- default fg
   tsuki3  = "#D0D4DE",
   tsuki4  = "#A4DCE7",
