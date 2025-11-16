@@ -39,7 +39,7 @@ local palette = {
   sangoBlue    = "#4A82FF", -- SH indigo #5571C0
   sangoYellow  = "#D6B04E", -- SH yellow
   sangoMagenta = "#B4647F",
-  sangoViolet  = "#6A5AFF", -- SH light violet #7880EF
+  sangoViolet  = "#8262FF", -- SH light violet #7880EF #6A5AFF
   sangoCyan    = "#9FD3E2",
 
   -- kairo: brighter accents (slightly higher contrast, still soft)
